@@ -1,0 +1,6 @@
+#Skills .box {
+  display: flex !important;
+}
+#Skills .box img {
+  height: 80px;
+}

@@ -1,0 +1,28 @@
+.box-container .box:hover img {
+  filter: brightness(0.9) !important;
+  opacity: 1 !important;
+  transform: scale(1.1);
+}
+.box-container p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* عدد السطور */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.box-container .demo::after,
+.box-container .code::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(to right, #60a5fa, #a855f7);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.box-container .demo:hover::after,
+.box-container .code:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,106 @@
+/* .layout {
+  height: calc(100vh - 100px);
+} */
+.social i {
+  /* background-color: #c4c4c4; */
+  /* background-color: var(--span-bg-color); */
+  width: 40px;
+  height: 40px;
+  /* font-size: 25px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  /* color: white; */
+  transition: 0.3s;
+}
+.social i:hover {
+  /* color: var(--grid-1-color); */
+  transform: scale(1.3);
+  background-image: linear-gradient(
+    to right,
+    var(--grid-1-color),
+    var(--grid-2-color)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* background-color: var(--span-bg-color); */
+  /* background-color: var(--background); */
+}
+#Home .text {
+  width: 0px;
+  text-wrap: nowrap;
+  border-right: 3px solid var(--main-color);
+  animation: typing 3s steps(30) infinite alternate-reverse;
+}
+#Home .image {
+  /* background-color: var(--bg-color); */
+  position: relative;
+  padding: 7px;
+  overflow: hidden;
+}
+#Home .image img {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+#Home .image::before,
+#Home .image::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: conic-gradient(transparent, transparent, transparent, #a855f7);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: rotate(0);
+  animation: photo-animation 8s linear infinite;
+}
+.demo:hover {
+  background-color: var(--sec-main-color);
+}
+@keyframes photo-animation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 250px;
+  }
+}
+@media (width > 22rem /* ~350px */) {
+  #Home .layout {
+    /* margin-top: 80px; */
+  }
+}
+@media (width > 32rem /* ~550px */) {
+  #Home .layout {
+    /* margin-top: 150px; */
+  }
+}
+@media (width < 64rem /* ~1024px */) {
+  #Home .layout {
+    /* margin-top: 0; */
+  }
+  #Home .image::before,
+  #Home .image::after {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (width < 32rem /* ~512px */) {
+  #Home .image::before,
+  #Home .image::after {
+    width: 300px;
+    height: 300px;
+  }
+}

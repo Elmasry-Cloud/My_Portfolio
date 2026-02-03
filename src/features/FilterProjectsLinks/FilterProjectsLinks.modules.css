@@ -1,0 +1,17 @@
+.projects-filter {
+}
+.projects-filter ul {
+}
+.projects-filter ul li {
+  background-image: linear-gradient(
+    to right,
+    var(--grid-1-color),
+    var(--grid-2-color)
+  );
+
+  /* background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent; */
+}

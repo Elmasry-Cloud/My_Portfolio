@@ -1,0 +1,18 @@
+.contact .btn::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-image: linear-gradient(
+    to right,
+    var(--grid-1-color),
+    var(--grid-2-color)
+  );
+  transition: 0.5s;
+}
+.contact .btn:hover::after {
+  width: 100%;
+}

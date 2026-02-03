@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+:root {
+  /* --main-color: #006a67;
+  --primary-color: #000b58;
+  --sec-color: #003161; */
+  --grid-1-color: #60a5fa;
+  --grid-2-color: #a855f7;
+  --bg-color: #0f172a;
+  --bg-black-color: #111111;
+  --bg-sec-color: #1b1b3e;
+  --p-color: #9ca3af;
+  --span-bg-color: #374151;
+  --text-w: #ffffff;
+}
+/* #374151 */
+/* 1f2937 */
+
+/* #111827 */
+
+* {
+  transition: 0.3s;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
+  /* scroll-behavior: smooth; */
+}
+
+.tran {
+  transition: 0.5s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: "Playfair Display", serif;
+}
+p {
+  color: var(--p-color);
+}
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    var(--grid-1-color),
+    var(--grid-2-color)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-color {
+  background-color: var(--bg-black-color);
+}
+.bg-sec-color {
+  background-color: var(--bg-sec-color);
+}
+.t-w {
+  color: var(--text-w);
+}
+
+.bg-span {
+  background-color: var(--span-bg-color);
+  /* background-color: #374151; */
+}
