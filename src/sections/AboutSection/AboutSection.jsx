@@ -24,6 +24,7 @@ export default function AboutSection() {
                 src={Image}
                 alt="Portfolio-img"
                 className="bg-[#0f172a] w-full h-full"
+                loading="lazy"
               />
             </div>
           </div>

@@ -59,6 +59,7 @@ export default function HomeSection() {
                 className="w-full rounded-full"
                 src={ImagePort}
                 alt="Portfolio-image"
+                loading="lazy"
               />
             </div>
           </div>

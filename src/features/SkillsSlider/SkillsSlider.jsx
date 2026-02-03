@@ -64,6 +64,7 @@ export default function SkillsSlider({ SkillsData }) {
               src={skil.skill_img}
               alt={skil.skill_dec}
               className=" hover:scale-[1.1] cursor-pointer"
+              loading="lazy"
             />
             <h6 className="text-xl mt-2">{skil.skill_dec}</h6>
           </div>

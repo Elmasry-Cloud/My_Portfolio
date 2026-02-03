@@ -46,6 +46,7 @@ export default function ProjectsBox({ filterdataProject }) {
                 src={project.img}
                 alt=""
                 className="w-full brightness-50 opacity-50 h-50 object-cover"
+                loading="lazy"
               />
             </div>
             <div className="info py-8 px-4">
@@ -95,6 +96,7 @@ export default function ProjectsBox({ filterdataProject }) {
                     src={project.img}
                     alt=""
                     className="w-full brightness-50 opacity-50 h-50 object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="info py-8 px-4">
