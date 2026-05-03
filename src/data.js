@@ -17,23 +17,23 @@ import ProjectData_1 from "../src/assets/Projects-Images/img (2).png";
 import ProjectData_2 from "../src/assets/Projects-Images/img (4).png";
 import ProjectData_3 from "../src/assets/Projects-Images/img (3).png";
 import ProjectData_4 from "../src/assets/Projects-Images/img (5).png";
-import ProjectData_5 from "../src/assets/Projects-Images/img (6).png";
-import ProjectData_6 from "../src/assets/Projects-Images/img (7).png";
+// import ProjectData_5 from "../src/assets/Projects-Images/img (6).png";
+// import ProjectData_6 from "../src/assets/Projects-Images/img (7).png";
 import ProjectData_7 from "../src/assets/Projects-Images/img (8).png";
 import ProjectData_8 from "../src/assets/Projects-Images/img (9).png";
-import ProjectData_9 from "../src/assets/Projects-Images/img (10).png";
-import ProjectData_10 from "../src/assets/Projects-Images/img (11).png";
-import ProjectData_11 from "../src/assets/Projects-Images/img (12).png";
-import ProjectData_12 from "../src/assets/Projects-Images/img (13).png";
-import ProjectData_13 from "../src/assets/Projects-Images/img (14).png";
-import ProjectData_14 from "../src/assets/Projects-Images/img (15).png";
-import ProjectData_15 from "../src/assets/Projects-Images/img (16).png";
-import ProjectData_16 from "../src/assets/Projects-Images/img (17).png";
-import ProjectData_17 from "../src/assets/Projects-Images/img (18).png";
-import ProjectData_18 from "../src/assets/Projects-Images/img (22).png";
-import ProjectData_19 from "../src/assets/Projects-Images/img (21).png";
-import ProjectData_20 from "../src/assets/Projects-Images/img (20).png";
-import ProjectData_21 from "../src/assets/Projects-Images/img (19).png";
+// import ProjectData_9 from "../src/assets/Projects-Images/img (10).png";
+// import ProjectData_10 from "../src/assets/Projects-Images/img (11).png";
+// import ProjectData_11 from "../src/assets/Projects-Images/img (12).png";
+// import ProjectData_12 from "../src/assets/Projects-Images/img (13).png";
+// import ProjectData_13 from "../src/assets/Projects-Images/img (14).png";
+// import ProjectData_14 from "../src/assets/Projects-Images/img (15).png";
+// import ProjectData_15 from "../src/assets/Projects-Images/img (16).png";
+// import ProjectData_16 from "../src/assets/Projects-Images/img (17).png";
+// import ProjectData_17 from "../src/assets/Projects-Images/img (18).png";
+// import ProjectData_18 from "../src/assets/Projects-Images/img (22).png";
+// import ProjectData_19 from "../src/assets/Projects-Images/img (21).png";
+// import ProjectData_20 from "../src/assets/Projects-Images/img (20).png";
+// import ProjectData_21 from "../src/assets/Projects-Images/img (19).png";
 
 export let SkillsData = [
   { skill_img: Skill_1, skill_dec: "HTML" },
@@ -107,26 +107,26 @@ export let ProjectsData = [
       "Gym website template displaying classes, trainers, schedules, and membership information with a modern UI design.",
     type: "js",
   },
-  {
-    id: 3,
-    name: "Anime_Page",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/Project_7/",
-    img: ProjectData_5,
-    description:
-      "Web project demonstrating UI layout and content structure with a responsive and user-friendly design.",
-    type: "js",
-  },
-  {
-    id: 4,
-    name: "Digital",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Project_1/",
-    img: ProjectData_6,
-    description:
-      "Digital marketing landing page showcasing company services, team members, and customer testimonials with a responsive design.",
-    type: "html-css",
-  },
+  // {
+  //   id: 3,
+  //   name: "Anime_Page",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/Project_7/",
+  //   img: ProjectData_5,
+  //   description:
+  //     "Web project demonstrating UI layout and content structure with a responsive and user-friendly design.",
+  //   type: "js",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Digital",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Project_1/",
+  //   img: ProjectData_6,
+  //   description:
+  //     "Digital marketing landing page showcasing company services, team members, and customer testimonials with a responsive design.",
+  //   type: "html-css",
+  // },
   {
     id: 5,
     name: "CRUD application",
@@ -147,56 +147,56 @@ export let ProjectsData = [
       "Interactive memory matching game built with JavaScript to improve user engagement and logic skills.",
     type: "js",
   },
-  {
-    id: 7,
-    name: "Book-marker",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/Book-marker/",
-    img: ProjectData_9,
-    description:
-      "Bookmark manager application that allows users to save and manage website links using browser local storage.",
-    type: "js",
-  },
-  {
-    id: 8,
-    name: "Quote-Generator",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/Quote-Generator/",
-    img: ProjectData_10,
-    description:
-      "Random quote generator that displays different quotes dynamically with a simple and clean interface.",
-    type: "js",
-  },
-  {
-    id: 9,
-    name: "CRUD-2",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/CRUD-2-Project/",
-    img: ProjectData_11,
-    description:
-      "Second CRUD application project for practicing data management operations using HTML, CSS, and JavaScript.",
-    type: "js",
-  },
-  {
-    id: 10,
-    name: "Modal-Project",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/Modal-Project/",
-    img: ProjectData_12,
-    description:
-      "Simple modal window implementation to display dynamic content in a popup interface.",
-    type: "js",
-  },
-  {
-    id: 11,
-    name: "Modal-2-Project",
-    skills: ["HTML", "CSS", "Javascript"],
-    link_demo: "https://elmasry-cloud.github.io/Modal-2-Project/",
-    img: ProjectData_13,
-    description:
-      "Modal popup project demonstrating interactive pop-up windows for better user interaction.",
-    type: "js",
-  },
+  // {
+  //   id: 7,
+  //   name: "Book-marker",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/Book-marker/",
+  //   img: ProjectData_9,
+  //   description:
+  //     "Bookmark manager application that allows users to save and manage website links using browser local storage.",
+  //   type: "js",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Quote-Generator",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/Quote-Generator/",
+  //   img: ProjectData_10,
+  //   description:
+  //     "Random quote generator that displays different quotes dynamically with a simple and clean interface.",
+  //   type: "js",
+  // },
+  // {
+  //   id: 9,
+  //   name: "CRUD-2",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/CRUD-2-Project/",
+  //   img: ProjectData_11,
+  //   description:
+  //     "Second CRUD application project for practicing data management operations using HTML, CSS, and JavaScript.",
+  //   type: "js",
+  // },
+  // {
+  //   id: 10,
+  //   name: "Modal-Project",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/Modal-Project/",
+  //   img: ProjectData_12,
+  //   description:
+  //     "Simple modal window implementation to display dynamic content in a popup interface.",
+  //   type: "js",
+  // },
+  // {
+  //   id: 11,
+  //   name: "Modal-2-Project",
+  //   skills: ["HTML", "CSS", "Javascript"],
+  //   link_demo: "https://elmasry-cloud.github.io/Modal-2-Project/",
+  //   img: ProjectData_13,
+  //   description:
+  //     "Modal popup project demonstrating interactive pop-up windows for better user interaction.",
+  //   type: "js",
+  // },
   // {
   //   id: 12,
   // name: "Slider",
@@ -217,86 +217,86 @@ export let ProjectsData = [
   //     "Login page UI project demonstrating authentication form design using HTML, CSS, and JavaScript.",
   //   type: "js",
   // },
-  {
-    id: 14,
-    name: "Template-1",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_01/",
-    img: ProjectData_14,
-    description:
-      "The website is a demo web template with a simple and organized design. It focuses on presenting a basic user interface with clear sections such as Home",
-    type: "html-css",
-  },
-  {
-    id: 15,
-    name: "Template-2",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_02/",
-    img: ProjectData_15,
-    description:
-      "Business website template including services, portfolio, pricing plans, and contact sections with a fully responsive layout.",
-    type: "html-css",
-  },
-  {
-    id: 16,
-    name: "Template-3",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_03/",
-    img: ProjectData_16,
-    description:
-      "Multi-section website template featuring articles, team members, testimonials, events, and pricing plans for large content projects.",
-    type: "html-css",
-  },
-  {
-    id: 17,
-    name: "Admin dashboard",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_04/",
-    img: ProjectData_17,
-    description:
-      "Admin dashboard UI design for displaying statistics and managing data in a simple and organized layout.",
-    type: "html-css",
-  },
-  {
-    id: 18,
-    name: "Education",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_06_Education-Page/",
-    img: ProjectData_18,
-    description:
-      "Educational landing page template for online courses or training platforms with a modern and user-friendly design.",
-    type: "html-css",
-  },
-  {
-    id: 19,
-    name: "Shose-Page",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_07_Shose-Page/",
-    img: ProjectData_19,
-    description:
-      "Product landing page for shoes showcasing product details with an attractive and responsive design.",
-    type: "html-css",
-  },
-  {
-    id: 20,
-    name: "Restaurant",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_08_Restaurant/",
-    img: ProjectData_20,
-    description:
-      "Restaurant website template to display menu, food items, and restaurant information with a professional layout.",
-    type: "html-css",
-  },
-  {
-    id: 21,
-    name: "Anime",
-    skills: ["HTML", "CSS"],
-    link_demo: "https://elmasry-cloud.github.io/Template_09_Anime-Page/",
-    img: ProjectData_21,
-    description:
-      "Anime-themed website template designed to present anime content with a visually appealing interface.",
-    type: "html-css",
-  },
+  // {
+  //   id: 14,
+  //   name: "Template-1",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_01/",
+  //   img: ProjectData_14,
+  //   description:
+  //     "The website is a demo web template with a simple and organized design. It focuses on presenting a basic user interface with clear sections such as Home",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 15,
+  //   name: "Template-2",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_02/",
+  //   img: ProjectData_15,
+  //   description:
+  //     "Business website template including services, portfolio, pricing plans, and contact sections with a fully responsive layout.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 16,
+  //   name: "Template-3",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_03/",
+  //   img: ProjectData_16,
+  //   description:
+  //     "Multi-section website template featuring articles, team members, testimonials, events, and pricing plans for large content projects.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 17,
+  //   name: "Admin dashboard",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_04/",
+  //   img: ProjectData_17,
+  //   description:
+  //     "Admin dashboard UI design for displaying statistics and managing data in a simple and organized layout.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 18,
+  //   name: "Education",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_06_Education-Page/",
+  //   img: ProjectData_18,
+  //   description:
+  //     "Educational landing page template for online courses or training platforms with a modern and user-friendly design.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 19,
+  //   name: "Shose-Page",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_07_Shose-Page/",
+  //   img: ProjectData_19,
+  //   description:
+  //     "Product landing page for shoes showcasing product details with an attractive and responsive design.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 20,
+  //   name: "Restaurant",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_08_Restaurant/",
+  //   img: ProjectData_20,
+  //   description:
+  //     "Restaurant website template to display menu, food items, and restaurant information with a professional layout.",
+  //   type: "html-css",
+  // },
+  // {
+  //   id: 21,
+  //   name: "Anime",
+  //   skills: ["HTML", "CSS"],
+  //   link_demo: "https://elmasry-cloud.github.io/Template_09_Anime-Page/",
+  //   img: ProjectData_21,
+  //   description:
+  //     "Anime-themed website template designed to present anime content with a visually appealing interface.",
+  //   type: "html-css",
+  // },
   // {
   //   id: 22,
   // name: "",
