@@ -52,6 +52,27 @@ export let SkillsData = [
 
 export let ProjectsData = [
   {
+    id: 111,
+    name: "Exam-App",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Next.js",
+      "Nextauth",
+      "Lucide icon",
+      "Shadcn",
+      "React-Hook-Form",
+      "Tailwind CSS",
+      "motion",
+    ],
+    link_demo: "https://exam-app0.vercel.app/",
+    img: ProjectData_1,
+    description:
+      "The website is a clothing e-commerce store with a simple and easy-to-use design. It allows users to log in or create a new account for shopping, with a clean and lightweight interface suitable for all devices.",
+    type: "react",
+  },
+  {
     id: 100,
     name: "Clothes-Ecommerce",
     skills: [
